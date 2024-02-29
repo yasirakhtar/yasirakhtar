@@ -1,0 +1,248 @@
+.contact-head{
+    background: #080808 !important;
+    height: auto !important;
+}
+
+*{
+    border-color: #fff !important;
+}
+
+/* ----------------------  */
+
+.contact-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-left{
+    flex-basis: 48%;
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+.contact-left-content{
+    width: 90%;
+}
+
+.contact-left-content h1{
+    font-size: 3rem;
+    margin: 0 !important;
+}
+
+.contact-left-content .bold{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.contact-left-address-box{
+    padding: 10px 30px;
+}
+
+.contact-address-boxes{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ff004f;
+    box-shadow: 0 0 5px 1px #640020;
+    margin-top: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.contact-address-boxes:hover{
+    background: #ff3575;
+}
+
+.contact-address-boxes:hover .address-icon-box{
+    background: #ff004f;
+    transition: all ease-in-out 0.3s;
+}
+
+.contact-address-boxes a{
+    color: #fff;
+}
+
+.contact-address-boxes a:hover h6{
+    color: #d3d3d3;
+    transition: ease-in-out 0.3s;
+}
+
+.contact-left-address-link-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.address-icon-box{
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff3575;
+}
+
+.address-icon-box i{
+    font-size: 22px;
+}
+
+.address-text-box p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.address-text-box h6{
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact-right{
+    flex-basis: 48%;
+}
+
+.contact-right-heading-box{
+    width: 90%;
+    margin: auto;
+}
+
+.contact-right-box{
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background: #ff004f;
+}
+
+.contact-right-input-box{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contact-right-input-box input{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 0 10px;
+    color: #414141;
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 13px;
+}
+
+.contact-right-message-box{
+    width: 90%;
+    margin: auto;
+}
+
+.contact-right-message-box h6{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact-right-message-box textarea{
+    width: 100%;
+    resize: none;
+    height:  85px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #414141;
+    background: #fff;
+    font-size: 13px;
+    margin: 0;
+}
+
+.contact-right-btn-box{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.contact-right-btn-box button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: #ff3575;
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.contact-right-btn-box button:hover{
+    color: #fff;
+    background: #ff004f;
+}
+
+/* ----------------------------- */
+
+@media only screen and (max-width: 900px){
+    .contact-main{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-left{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-left-content h1{
+        line-height: 46px;
+    }
+
+    .contact-left{
+        flex-basis: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .contact-left-content{
+        width: 100%;
+    }
+
+    .contact-left-address-box{
+        margin: auto;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .contact-address-boxes{
+        width: 100%;       
+    }
+
+    .address-icon-box{
+        height: 40px;
+        width: 40px;
+    }
+
+    .address-icon-box i{
+        font-size: 18px;
+    }
+
+    .contact-left h1{
+        font-size: 2rem;
+    }
+
+    .address-text-box p{
+        font-weight: 500;
+    }
+
+    .address-text-box h6{
+        font-size: 12px;
+    }
+    
+    .contact-right-box{
+        width: 100%;
+    }
+}
