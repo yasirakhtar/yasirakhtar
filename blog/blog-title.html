@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Meta Tags  -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Yasir Akhtar</title>
+
+    <meta property="og:title" content="Yasir Akhtar - Front-End Developer">
+    <meta property="og:description" content="Yasir Akhtar is a skilled front-end developer specializing in creating captivating websites.">
+    <meta name="keywords" content="Yasir Akhtar, yasir, yasirakhtar, yasir website, yasir akhtar website, who is yasir akhtar, yasir akhtar koun hai, about yasir akhtar, about yasir, yasir akhtar portfolio, yasir akhtar projects, YASIR AKHTAR">
+    <meta property="og:image" content="https://www.yasirakhtar.site/images/yasir-akhtar.jpeg">
+    <meta property="og:url" content="https://www.yasirakhtar.site/">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="follow, index" />
+
+    <!-- Links -->
+
+    <link rel="shortcut icon" href="https://i.ibb.co/n0Vdb8q/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PPJDFZWLR3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PPJDFZWLR3');
+</script>
+
+</head>
+<body>
+    
+    <div class="head blog-header" id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo1.png" title="YASIR AKHTAR" class="logo" onerror="src='https://i.ibb.co/n0Vdb8q/logo.png', style='width: 50px;'">
+
+                <ul id="sideMenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="post-container-main">
+        <div class="post-container">
+
+            <div class="post-left">
+                <div class="post-tag-box">
+                    <button>Tags</button>
+                </div>
+
+                <div class="post-title-box">
+                    <h2>I Created A Developer Rap Video - Here is What I Learned</h2>
+                </div>
+
+                <div class="post-date-author-box">
+                    <div class="post-author">
+                        <a href="#" class="post-autor-profile">
+                            <img src="images/img-1.jpg" alt="">
+                            <p>Admin</p>
+                        </a>
+                    </div>
+
+                    <div class="post-date-box">
+                        <p><i class="fa-regular fa-calendar"></i> 03 April 202</p>
+                   </div>
+                </div>
+
+                <div class="post-img-box">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+
+                <div class="post-article-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero quas numquam. Repudiandae voluptates odit, earum quaerat sed voluptatum modi. Earum ipsum recusandae sequi veniam quo suscipit quasi vero ullam?</p>
+
+                    <h3>I Created A Developer Rap Video - Here is What I Learned</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, necessitatibus eaque. Non perspiciatis dolor deserunt impedit. Illo nam ducimus magni maiores facere, porro veniam temporibus non corporis omnis debitis repudiandae!</p>
+                </div>
+
+                
+
+
+            </div>
+
+
+    
+            <div class="post-right">
+                <h1>right Box</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    
+
+    <!-- --------- Contact ----------- -->
+
+        <div id="contact">
+
+            <div class="copyright">
+                <p>Made with <i class="fa-solid fa-heart"></i> by YASIR AKHTAR</p>
+            </div>
+
+        </div>
+
+    <!-- --------- Contact End ----------- -->
+
+
+    <script>
+
+        var sideMenu = document.getElementById("sideMenu");
+
+        function openMenu(){
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu(){
+            sideMenu.style.right = "-300px";
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxtug53259lGzjqo28WbX0VzRZPlbmWv28WL6tpczxqx-wNm2KQhOzT2YX7qtLCwuPFig/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
