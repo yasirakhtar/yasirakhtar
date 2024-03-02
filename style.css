@@ -478,3 +478,8 @@ nav .fas{
         font-size: 14px;
     }
 }
+
+.about-header{
+    background: #080808 !important;
+    height: auto !important;
+}
