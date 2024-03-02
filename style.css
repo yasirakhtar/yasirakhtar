@@ -483,3 +483,25 @@ nav .fas{
     background: #080808 !important;
     height: auto !important;
 }
+
+
+.title-box{
+    text-align: center;
+}
+
+.projects-sub-title{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.projects-sub-title:after{
+    content: "";
+    background: #ff004f;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
