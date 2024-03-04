@@ -62,6 +62,7 @@
 
 .contact-address-boxes a{
     color: #fff;
+    text-decoration: none;
 }
 
 .contact-address-boxes a:hover h6{
@@ -180,6 +181,14 @@
 .contact-right-btn-box button:hover{
     color: #fff;
     background: #ff004f;
+}
+
+.contact-address-boxes-disable{
+    opacity: 0.2;
+}
+
+.contact-address-boxes-disable a{
+    cursor: not-allowed;
 }
 
 /* ----------------------------- */

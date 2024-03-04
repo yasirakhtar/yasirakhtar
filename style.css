@@ -9,6 +9,10 @@ html{
     scroll-behavior: smooth;
 }
 
+* a{
+    text-decoration: none;
+}
+
 body{
     background: #080808;
     color: #fff;
