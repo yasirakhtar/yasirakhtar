@@ -1,0 +1,7 @@
+projects ke ander folder banana hai jaise ki agar nielit name ka project hai to projects/nielit aur agr iska source code reveal karna hai to projetcs/nielit/source is tarah se sabhi projects honge
+
+projects
+|-nielit
+    |-- index.html
+    |-- source (folder)
+          |--index.html -- like blog () 

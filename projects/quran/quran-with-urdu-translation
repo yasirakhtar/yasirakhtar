@@ -9,14 +9,14 @@
     <title>Al Quran with Urdu Translation</title>
 
     <meta property="og:title" content="Al Quran with Urdu Translation">
-    <link rel="canonical" href="https://yasirakhtar.co/quran/quran-with-urdu-translation" />
+    <link rel="canonical" href="https://yasirakhtar.co/projects/quran/quran-with-urdu-translation" />
     <meta name="description" content="Yasir Akhtar, though formally launched in 1919, was an inheritor of a rich legacy dating back to early 18th century when Shah Waliullah of Delhi led a revolution to change the whole system by drawing the attention of people to the depredations of European imperialism, degeneration and corruption among oriental rulers." />
 
     <meta property="og:description" content="Yasir Akhtar, though formally launched in 1919, was an inheritor of a rich legacy dating back to early 18th century when Shah Waliullah of Delhi">
     
     <meta name="keywords" content="Yasir Akhtar, Quran , Quran audio, quran with tarjuma, quran with urdu tarjuma, quran hindi audio, quran audio urdu, quran, quran with urdu tarjuma, quran with urdu translation, quran audio by yasirakhtar.co, quran audio by yasir akhtar co">
-    <meta property="og:image" content="https://www.yasirakhtar.co/quran/img/surah-fatiha.jpg">
-    <meta property="og:url" content="https://yasirakhtar.co/quran/quran-with-urdu-translation">
+    <meta property="og:image" content="https://www.yasirakhtar.co/projects/quran/img/surah-fatiha.jpg">
+    <meta property="og:url" content="https://yasirakhtar.co/projects/quran/quran-with-urdu-translation">
     <meta property="og:type" content="website">
     <meta name="robots" content="follow, index" />
     <meta property="article:tag" content="Al Quran" />
@@ -38,7 +38,7 @@
     <!-- Links -->
 
     <link rel="shortcut icon" href="https://i.ibb.co/n0Vdb8q/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     
@@ -58,7 +58,7 @@
     <div class="head" id="header">
         <div class="container">
             <nav>
-                <img src="/images/logo1.png" title="YASIR AKHTAR" class="logo" onerror="src='https://i.ibb.co/n0Vdb8q/logo.png', style='width: 50px;'">
+                <img src="/assets/img/logo1.png" title="YASIR AKHTAR" class="logo" onerror="src='https://i.ibb.co/n0Vdb8q/logo.png', style='width: 50px;'">
 
                 <ul id="sideMenu">
                     <li>
@@ -208,7 +208,6 @@
     <!-- --------- Contact End ----------- -->
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-    <script src="./scripts/script.js"></script>
     <script src="script.js"></script>
 
 

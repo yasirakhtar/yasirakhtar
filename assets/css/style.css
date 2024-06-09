@@ -21,7 +21,7 @@ body{
 #header{
     height: 100vh;
     width: 100%;
-    background-image: url('images/background.jpg');
+    background-image: url('/assets/img/background.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -412,7 +412,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url("images/phone-background.jpg");
+        background-image: url("/assets/img/phone-background.jpg");
     }
 
     .header-text{
@@ -508,4 +508,131 @@ nav .fas{
     position: absolute;
     bottom: -10px;
     left: 0;
+}
+
+
+/* Projects */
+
+.projects-head{
+    height: auto !important;
+    background: #080808 !important;
+}
+
+.title-box{
+    text-align: center;
+}
+
+.projects-sub-title{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.projects-sub-title:after{
+    content: "";
+    background: #ff004f;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.load-more{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.load-more-projets{
+    display: none;
+}
+
+.load-more-end{
+    border: 1px solid #fff;
+    cursor: not-allowed;
+}
+
+.load-more-end:hover{
+    background: transparent;
+}
+
+.work-name-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#ff004f;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.work:hover .work-name-layer{
+    height: 0px;
+}
+
+
+/* ----- Footer ------ */
+
+footer{
+    background: #262626;
+    margin-top: 50px;
+}
+
+.footer-box{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 40px 30px 20px 30px;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.footer-box .footer-col .footer-links-box{
+    padding: 10px 5px;
+}
+
+.footer-box .footer-col .footer-links-box a{
+    display: block;
+    line-height: 23px;
+    font-size: 14px;
+    color: #ababab;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-box .footer-col .footer-links-box a:hover{
+    color: #e9467a;
+}
+
+.copyright{
+    border-top: 1px solid #3f3f3f !important;
+}
+
+.copyright p a{
+    color: #e9467a;
+    transition: 0.3s ease-in-out;
+}
+
+.copyright p a:hover{
+    color: #b54769;
+}
+
+@media only screen and (max-width: 900px){
+    .footer-box{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .footer-box{
+        gap: 30px;
+        flex-direction: column;
+    }
 }
