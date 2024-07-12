@@ -20,9 +20,11 @@ body{
 }
 
 .project-preiew-tag{
-    border: 1px solid #000;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 80px;
+    top: 70px;
+    right: -110px;
     transform: rotate(45deg);
+    background: #ff004f;
+    padding: 5px 150px;
 }
