@@ -2,7 +2,7 @@
 
 ### Hi there, I'm **Yasir Akhtar**! 👋
 
-🚀 **Web Developer | JavaScript Enthusiast | Tech Creator**
+🚀 **Web Developer**
 
 I'm a passionate **web developer** currently pursuing a **BCA**. I love building websites, experimenting with **JavaScript**, and working on cool tech projects. Currently, I'm learning **React.js**.
 
