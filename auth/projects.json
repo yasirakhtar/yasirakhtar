@@ -20,7 +20,7 @@
       },
       {
         "name": "MysticWatch",
-        "disable": false,
+        "disable": true,
         "info": "This project is currently under maintenance.",
         "redirectURL": "https://mxfly.in/blog"
       }

@@ -23,7 +23,7 @@
             .then(data => {
                 const project = data.projects.find(proj => proj.name === projectName);
                 if (project && project.disable) {
-                    showPopup(project.info, project.redirectURL || "https://test.ownsocialpanel.in");
+                    showPopup(project.info, project.redirectURL || "https://mxfly.in");
                 }
             })
             .catch(error => console.error("Error loading config:", error));
@@ -45,7 +45,8 @@
             ">
                 <h3 style="margin: 0 0 10px;">Alert</h3>
                 <p>${message}</p>
-                <button onclick="closePopup()">OK</button>
+                <button style="
+                padding: 4px 8px;" onclick="closePopup()">OK</button>
             </div>
             <div id="overlay" style="
                 position: fixed; 
