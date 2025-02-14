@@ -46,7 +46,12 @@
                 <h3 style="margin: 0 0 10px;">Alert</h3>
                 <p>${message}</p>
                 <button style="
-                padding: 4px 8px;" onclick="closePopup()">OK</button>
+                padding: 8px 16px;"
+                margin-top: 8px;
+                background: #000;
+                color: #fff;
+                border-radius: 5px;
+                onclick="closePopup()">OK</button>
             </div>
             <div id="overlay" style="
                 position: fixed; 
