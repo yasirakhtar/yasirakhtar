@@ -22,8 +22,8 @@
   
     // Disable function: Page opacity 0 + Popup
     function disableProject(message) {
-      document.body.style.transition = "opacity 0.5s ease-in-out";
-      document.body.style.opacity = "0";
+    //   document.body.style.transition = "opacity 0.5s ease-in-out";
+    //   document.body.style.opacity = "0";
   
       // Create popup
       const popup = document.createElement("div");
