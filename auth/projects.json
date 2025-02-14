@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "name": "ProjectA",
+        "disable": true,
+        "info": "This project is currently under maintenance."
+      },
+      {
+        "name": "ProjectB",
+        "disable": false,
+        "info": "This project is running fine."
+      },
+      {
+        "name": "ProjectC",
+        "disable": true,
+        "info": "This project is temporarily disabled."
+      },
+      {
+        "name": "MysticWatch",
+        "disable": true,
+        "info": "This project is currently under maintenance."
+      }
+    ]
+  }
+  
