@@ -3,22 +3,26 @@
       {
         "name": "ProjectA",
         "disable": true,
-        "info": "This project is currently under maintenance."
+        "info": "This project is currently under maintenance.",
+        "redirectURL": "https://newsite.com"
       },
       {
         "name": "ProjectB",
         "disable": false,
-        "info": "This project is running fine."
+        "info": "This project is running fine.",
+        "redirectURL": "https://newsite.com"
       },
       {
         "name": "ProjectC",
         "disable": true,
-        "info": "This project is temporarily disabled."
+        "info": "This project is temporarily disabled.",
+        "redirectURL": "https://newsite.com"
       },
       {
         "name": "MysticWatch",
         "disable": true,
-        "info": "This project is currently under maintenance."
+        "info": "This project is currently under maintenance.",
+        "redirectURL": "https://mxfly.in/blog"
       }
     ]
   }
